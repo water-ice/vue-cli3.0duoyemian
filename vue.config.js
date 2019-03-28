@@ -27,6 +27,12 @@ module.exports = {
         pathRewrite: { '/api': '' },
       },
     },
+    historyApiFallback: {
+      rewrites: [
+        { from: /^\/ty/, to: '/ty.html' }, // 页面路由指向特定的html文件
+        { from: /^\/cy/, to: '/cy.html' } // 页面路由指向特定的html文件
+      ]
+    }
   },
   transpileDependencies: ['h2'],
   pwa: {
