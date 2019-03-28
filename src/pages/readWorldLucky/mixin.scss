@@ -1,0 +1,15 @@
+@function rem($px) {
+  @return $px / 100 + rem;
+}
+
+// 宽高，mt，mr，mb,ml.字体大小，圆角大小,文字颜色,背景颜色,上阴影颜色,下阴影颜色
+@mixin btn($color, $linearLeft, $linearRight, $topShadow) {
+  color: $color;
+  background: linear-gradient(180deg, $linearLeft, $linearRight);
+  box-shadow: inset 0px -5px 1px -1px$topShadow;
+}
+@mixin subBtn($color, $linearLeft, $linearRight) {
+  color: $color;
+  background: linear-gradient(180deg, $linearLeft, $linearRight);
+}
+

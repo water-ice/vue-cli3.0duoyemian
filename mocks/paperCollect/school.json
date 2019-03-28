@@ -1,0 +1,11 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "list": [{
+      "type": 3,
+      "id": 110000,
+      "name": "北京中学"
+    }]
+  }
+}

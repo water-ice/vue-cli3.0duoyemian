@@ -1,0 +1,99 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "result": {
+      "isLogin": 0,
+      "products": [
+        {
+          "payServiceId": 31,
+          "payItemId": 1020,
+          "price": 15,
+          "discount": "\u6bcf\u59290.5\u5143"
+        },
+        {
+          "payServiceId": 31,
+          "payItemId": 1021,
+          "price": 60,
+          "discount": "\u6298\u540811\u6708/\u6708"
+        },
+        {
+          "payServiceId": 31,
+          "payItemId": 1022,
+          "price": 180,
+          "discount": "\u6298\u54088.3\u5143/\u6708"
+        }
+      ],
+      "coupons": [
+        {
+          "couponId": 70,
+          "couponType": 2,
+          "title": "\u6d4b\u8bd5\u6240\u5269\u65f6\u95f4",
+          "leastCost": 6000,
+          "reduceCost": 1500,
+          "discount": 0,
+          "quantity": 0,
+          "getLimit": 0,
+          "beginTime": 1514736000,
+          "endTime": 1830268800,
+          "useDateType": 2,
+          "useDateParam1": 0,
+          "useDateParam2": 1,
+          "couponStatus": 2,
+          "authorId": 2000015773,
+          "updatedAt": 1545478788,
+          "createdAt": 1545478788,
+          "couponTypeName": "\u6ee1\u51cf\u5238",
+          "couponStatusName": "\u901a\u8fc7\u5ba1\u6838",
+          "suit": [
+            { "source": "homework", "serviceId": 31, "itemId": 1020 },
+            { "source": "homework", "serviceId": 31, "itemId": 1021 },
+            { "source": "homework", "serviceId": 31, "itemId": 1022 }
+          ],
+          "description": "\u6d4b\u8bd5\u6240\u5269\u65f6\u95f4",
+          "remark": "\u54c8\u54c8\u54c8\u54c8\u554a\u54c8\u54c8\u54c8",
+          "receiveNumber": 13,
+          "verifyNumber": 4,
+          "receiveStatus": 1,
+          "useEndTime": 0,
+          "useBeginTime": 0
+        },
+        {
+          "couponId": 69,
+          "couponType": 2,
+          "title": "180-51\u4f18\u60e0\u5238",
+          "leastCost": 18000,
+          "reduceCost": 5100,
+          "discount": 0,
+          "quantity": 0,
+          "getLimit": 0,
+          "beginTime": 1514736000,
+          "endTime": 1830268800,
+          "useDateType": 2,
+          "useDateParam1": 0,
+          "useDateParam2": 20,
+          "couponStatus": 2,
+          "authorId": 2000015773,
+          "updatedAt": 1545390128,
+          "createdAt": 1545390128,
+          "couponTypeName": "\u6ee1\u51cf\u5238",
+          "couponStatusName": "\u901a\u8fc7\u5ba1\u6838",
+          "suit": [
+            { "source": "homework", "serviceId": 31, "itemId": 1020 },
+            { "source": "homework", "serviceId": 31, "itemId": 1021 },
+            { "source": "homework", "serviceId": 31, "itemId": 1022 }
+          ],
+          "description": "180-51\u4f18\u60e0\u5238",
+          "remark": "180-51\u4f18\u60e0\u5238",
+          "receiveNumber": 36,
+          "verifyNumber": 9,
+          "receiveStatus": 1,
+          "useEndTime": 0,
+          "useBeginTime": 0
+        }
+      ],
+      "addressInput": 0,
+      "currentTime": 1545632843
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "prize": {
+      "position": 2,
+      "prizeName": "大栗礼盒",
+      "prizeId": 3
+    },
+    "userInfo": {
+      "luckDrawCount": 198
+    }
+  }
+}

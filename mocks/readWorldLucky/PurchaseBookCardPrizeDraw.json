@@ -1,0 +1,111 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "userInfo": {
+      "bookCard": "9990",
+      "usableDrawTimes": 3,
+      "hasDrawTimes": 0,
+      "purchaseState": 1,
+      "reviveBookcardStatus":["8"]
+    },
+    "goodList": {
+      "products": [
+        {
+          "classId": 1,
+          "amount": 3,
+          "extraAmount": 0,
+          "price": 6,
+          "originPrice": 6,
+          "actId": 0,
+          "recommend": 0,
+          "type": 0,
+          "discount": 0,
+          "itemId": 1,
+          "serviceId": 22,
+          "drawTimes": 2
+        },
+        {
+          "classId": 5,
+          "amount": 9,
+          "extraAmount": 3,
+          "price": 18,
+          "originPrice": 18,
+          "actId": 0,
+          "recommend": 0,
+          "type": 0,
+          "discount": 0,
+          "itemId": 2,
+          "serviceId": 22,
+          "drawTimes": 8
+        },
+        {
+          "classId": 10,
+          "amount": 24,
+          "extraAmount": 16,
+          "price": 48,
+          "originPrice": 48,
+          "actId": 0,
+          "recommend": 0,
+          "type": 0,
+          "discount": 0,
+          "itemId": 3,
+          "serviceId": 22,
+          "drawTimes": 20
+        }
+      ],
+      "activity": []
+    },
+    "awardList": [
+      {
+        "awardId": 1,
+        "awardName": "儿童手表",
+        "img": "",
+        "type": "childrenWatch",
+        "cost": "1"
+      },
+      {
+        "awardId": 2,
+        "awardName": "儿童水彩笔",
+        "img": "",
+        "type": "childPencil",
+        "cost": "1"
+      },
+      {
+        "awardId": 3,
+        "awardName": "儿童百科全书",
+        "img": "",
+        "type": "childrenDKBook",
+        "cost": "1"
+      },
+      {
+        "awardId": 4,
+        "awardName": "读书卡五张",
+        "img": "",
+        "type": "bookCard",
+        "cost": "5"
+      },
+      {
+        "awardId": 5,
+        "awardName": "读书卡一张",
+        "img": "",
+        "type": "bookCard",
+        "cost": "1"
+      },
+      {
+        "awardId": 6,
+        "awardName": "帮帮币五个",
+        "img": "",
+        "type": "bangBangCoin",
+        "cost": "5"
+      },
+      {
+        "awardId": 7,
+        "awardName": "帮帮币一个",
+        "img": "",
+        "type": "bangBangCoin",
+        "cost": "1"
+      }
+    ]
+  }
+}

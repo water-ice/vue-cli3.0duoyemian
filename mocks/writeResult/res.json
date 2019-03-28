@@ -1,0 +1,145 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "special": {
+      "name": "赵铁柱",
+      "avatar": "",
+      "levelId": 20,
+      "articleId": 1,
+      "title": "噢噢噢噢"
+    },
+    "first": [
+      {
+        "name": "Excepteu",
+        "avatar": "amet officia cupidatat nostr",
+        "levelId": 30,
+        "articleId": -72281816.21035819,
+        "title": "magna irure voluptate officia"
+      },
+      {
+        "name": "adipisicing consectetur dolor magna",
+        "avatar": "",
+        "levelId": 20,   
+        "articleId": -77229827.81580758,
+        "title": "laboris id et"
+      }
+    ],
+    "second": {
+			"20": [{
+				"name": "二等奖",
+				"avatar": "sit",
+				"levelId": -84270532.73110676,
+				"articleId": -82494180.26158431,
+				"title": "exercitation consec"
+			}, {
+				"name": "est mollit",
+				"avatar": "",
+				"levelId": 59262400.397963285,
+				"articleId": 50476768.9069162,
+				"title": "labore"
+      }],
+      "30" : [{
+				"name": "二等奖",
+				"avatar": "sit",
+				"levelId": -84270532.73110676,
+				"articleId": -82494180.26158431,
+				"title": "exercitation consec"
+			}, {
+				"name": "est mollit",
+				"avatar": "",
+				"levelId": 59262400.397963285,
+				"articleId": 50476768.9069162,
+				"title": "labore"
+			}]
+		},
+		"third": {
+			"20": [{
+				"name": "三等奖",
+				"avatar": "nisi pariatur in",
+				"levelId": 86343354.53620058,
+				"articleId": -27193275.419590175,
+				"title": "qui incididunt"
+			}, {
+				"name": "elit Duis",
+				"avatar": "dolor ipsum Lorem nulla",
+				"levelId": -29163014.014618054,
+				"articleId": 4628501.934895813,
+				"title": "ut elit"
+			}, {
+				"name": "laborum et",
+				"avatar": "in dolore",
+				"levelId": 3077967.782679856,
+				"articleId": -89418644.09151989,
+				"title": "reprehenderit"
+			}]
+		},
+    "creative": [
+      {
+        "name": "in elit et",
+        "avatar": "",
+        "levelId": 91492885.9771072,
+        "articleId": -21526740.16178073,
+        "title": "ea et"
+      },
+      {
+        "name": "elit quis sed",
+        "avatar": "non nisi cons",
+        "levelId": 86293380.54806647,
+        "articleId": 68133040.08319917,
+        "title": "officia cillum ad sint exercitation"
+      },
+      {
+        "name": "culpa tem",
+        "avatar": "fugiat exercitation mollit ullamco culpa",
+        "levelId": 63766616.31652093,
+        "articleId": -53100433.626044154,
+        "title": "Excepteur do enim fugiat"
+      },
+      {
+        "name": "adipisicing nisi",
+        "avatar": "Excepteur",
+        "levelId": 11623243.96956022,
+        "articleId": 68131197.23991147,
+        "title": "magna"
+      }
+    ],
+    "popular": [
+      {
+        "name": "anim conse",
+        "avatar": "labore occaecat sunt",
+        "levelId": -8815655.517816886,
+        "articleId": 80515265.66904071,
+        "title": "laborum"
+      },
+      {
+        "name": "ex dolore",
+        "avatar": "",
+        "levelId": -6403338.249141604,
+        "articleId": 86690229.17506814,
+        "title": "aliquip consectetur"
+      },
+      {
+        "name": "ea elit aliquip",
+        "avatar": "ipsum pariatur",
+        "levelId": -47724540.34471938,
+        "articleId": 89367180.48410115,
+        "title": "nulla aliqua cillum"
+      },
+      {
+        "name": "ea elit aliquip",
+        "avatar": "ipsum pariatur",
+        "levelId": -47724540.34471938,
+        "articleId": 89367180.48410115,
+        "title": "nulla aliqua cillum"
+      },
+      {
+        "name": "ea elit aliquip",
+        "avatar": "ipsum pariatur",
+        "levelId": -47724540.34471938,
+        "articleId": 89367180.48410115,
+        "title": "nulla aliqua cillum"
+      }
+    ]
+  }
+}

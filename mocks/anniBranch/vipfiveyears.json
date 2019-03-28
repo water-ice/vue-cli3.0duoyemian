@@ -1,0 +1,48 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "isLogin": 0,
+    "products": [
+      {
+        "payServiceId": 31,
+        "payItemId": 31,
+        "price": 15
+      },
+      {
+        "payServiceId": 35,
+        "payItemId": 35,
+        "price": 55
+      },
+      {
+        "payServiceId": 40,
+        "payItemId": 40,
+        "price": 115
+      }
+    ],
+    "tasks": {
+      "video": {
+        "title": "这里应该写11个字哦哈",
+        "subject": "数学",
+        "img": "",
+        "url": "https://www.baidu.com/",
+        "videoUrl": "",
+        "taskId": 1
+      },
+      "task": {
+        "title": "这里是任务站位处",
+        "subject": "英语",
+        "img": "",
+        "url": "https://www.baidu.com/",
+        "taskId": 2
+      },
+      "course": {
+        "title": "这里是任务站位处",
+        "subject": "英语",
+        "img": "",
+        "url": "https://www.baidu.com/",
+        "taskId": 3
+      }
+    }
+  }
+}

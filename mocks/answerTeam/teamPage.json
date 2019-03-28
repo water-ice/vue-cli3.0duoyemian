@@ -1,0 +1,33 @@
+{
+    "errNo":0,
+    "errstr":"success",
+    "data":{
+        "isJoin":"(int)0-非团成员，1-是团成员",
+        "isMember":1,
+        "isApply":0,
+        "activity":{
+            "colorM":"",
+            "colorS":""
+        },
+        "community":{
+            "name":"社团名",
+            "portrait":"头像url",
+            "headName":"团长名",
+            "autograph":"签名",
+            "memberConts":"100",
+            "bonusConts":"2000",
+            "nowBonusConts":"(int)当前活动采纳数",
+            "communityInfo":"社团简介",
+            "linkUrl":"(string)跳转链接",
+            "type":"社团类型",
+            "level":"一级",
+            "rankList":[],
+            "myRank":{
+              "member":"uid",
+              "score":"采纳数",
+              "avatar":"",
+              "nickName":"昵称"
+            }
+        }
+    }
+}

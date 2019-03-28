@@ -1,0 +1,8 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "isLogin": 1,
+    "status": 1
+  }
+}

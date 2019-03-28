@@ -1,0 +1,50 @@
+{
+    "errNo": 0,
+    "errstr": "success",
+    "data": {
+        "isLogin":0,
+        "isJoin":0,
+        "isApply":0,
+        "communityId":123,
+        "activity":{
+            "page1":"https://img.zuoyebang.cc/zyb_c9fc45f3ebaa0b5cc5c660cd50969660.png",
+            "page2":"https://img.zuoyebang.cc/zyb_5656e6d4067a7b538b4b4e7426212851.png",
+            "colorM":"",
+            "colorS":"",
+            "title":"",
+            "startTime":"",
+            "endTime":"",
+            "leftTime":11111,
+            "status":0
+        },
+        "rankList":{
+            "1":[
+                {
+                    "id":"1社团id",
+                    "name":"1社团名",
+                    "bonus":"1采纳数",
+                    "portrait":"",
+                    "memberConts":"1社团人数"
+                }
+            ],
+            "2":[
+              {
+                  "id":"2社团id",
+                  "name":"2社团名",
+                  "bonus":"2采纳数",
+                  "portrait":"2头像url",
+                  "memberConts":"2社团人数"
+              }
+            ],
+            "3":[
+              {
+                  "id":"3社团id",
+                  "name":"3社团名",
+                  "bonus":"3采纳数",
+                  "portrait":"3头像url",
+                  "memberConts":"3社团人数"
+              }
+            ]
+        }
+    }
+}

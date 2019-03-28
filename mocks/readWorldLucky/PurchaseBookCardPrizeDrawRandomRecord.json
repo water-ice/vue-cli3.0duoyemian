@@ -1,0 +1,32 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "records": [
+      {
+        "awardId": "7",
+        "draw_time": "2019年03月15日 10:22",
+        "award": {
+          "awardId": 7,
+          "awardName": "帮帮币一个",
+          "img": "",
+          "type": "bangBangCoin",
+          "cost": "1"
+        },
+        "randomName": "张三2232423222"
+      },
+      {
+        "awardId": "7",
+        "draw_time": "2019年03月15日 10:22",
+        "award": {
+          "awardId": 7,
+          "awardName": "儿童百科全书",
+          "img": "",
+          "type": "bangBangCoin",
+          "cost": "1"
+        },
+        "randomName": "张sdasda四"
+      }
+    ]
+  }
+}

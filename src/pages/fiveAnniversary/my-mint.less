@@ -1,0 +1,40 @@
+.mint-swipe-indicators {
+  bottom: -.5rem;
+  display: flex;
+  align-items: center;
+  .mint-swipe-indicator {
+    width: .12rem;
+    height: .12rem;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 .2rem;
+    overflow: visible;
+    transform: scale(.4);
+  }
+}
+.mint-swipe-indicator {
+  border: .1rem solid transparent;
+  background: #fff;
+  opacity: .6;
+    &.is-active {
+      // background: blue;
+      opacity: .9;
+      transform: scale(.6);
+      border: .1rem solid yellow;
+      position: relative;
+      &::before {
+        content: '';
+        display:inline-block;
+        height: .2rem;
+        width: .35rem;
+        position: absolute;
+        top: -.55rem;
+        left: -.1rem;
+        background: url('./img/arrowD.png') no-repeat;
+        background-size: 100% auto;
+      }
+    }
+  }
+.mint-swipe {
+  overflow: visible
+}

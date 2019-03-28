@@ -1,0 +1,12 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "uid": 2157118860, 
+    "orderId": 2000012474, 
+    "payStatus": 1, 
+    "payChannel": 7, 
+    "payStatusName": "已支付", 
+    "payChannelName": "微信H5" 
+  }
+}

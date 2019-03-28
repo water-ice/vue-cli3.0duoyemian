@@ -1,0 +1,44 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "code": 0,
+    "awards": [
+      {
+        "awardId": 1,
+        "awardName": "书",
+        "img": "./resource/book.png",
+        "type": "bangBangCoin",
+        "cost": "1"
+      },
+      {
+        "awardId": 5,
+        "awardName": "帮帮币一个",
+        "img": "https://yy-s.zuoyebang.cc/static/drawbook/activity/gold-one.png",
+        "type": "bangBangCoin",
+        "cost": "1"
+      },
+      {
+        "awardId":7,
+        "awardName": "帮帮币一个",
+        "img": "https://yy-s.zuoyebang.cc/static/drawbook/activity/gold-one.png",
+        "type": "bangBangCoin",
+        "cost": "1"
+      },
+      {
+        "awardId": 7,
+        "awardName": "帮帮币一个",
+        "img": "https://yy-s.zuoyebang.cc/static/drawbook/activity/gold-one.png",
+        "type": "bangBangCoin",
+        "cost": "1"
+      },
+      {
+        "awardId": 7,
+        "awardName": "帮帮币一个",
+        "img": "https://yy-s.zuoyebang.cc/static/drawbook/activity/gold-one.png",
+        "type": "bangBangCoin",
+        "cost": "1"
+      }
+    ]
+  }
+}

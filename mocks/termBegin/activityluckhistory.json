@@ -1,0 +1,36 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": [
+    {
+      "prizeId": 2,
+      "content": "已到账",
+      "createTime": 1549010788,
+      "prizeName": "20帮帮币"
+    },
+    {
+      "prizeId": 1,
+      "content": "已到账",
+      "createTime": 1549010693,
+      "prizeName": "10帮帮币"
+    },
+    {
+      "prizeId": 1,
+      "content": "已到账",
+      "createTime": 1549010636,
+      "prizeName": "10帮帮币"
+    },
+    {
+      "prizeId": 2,
+      "content": "已到账",
+      "createTime": 1549010457,
+      "prizeName": "20帮帮币"
+    },
+    {
+      "prizeId": 1,
+      "content": "已到账",
+      "createTime": 1549009857,
+      "prizeName": "10帮帮币"
+    }
+  ]
+}

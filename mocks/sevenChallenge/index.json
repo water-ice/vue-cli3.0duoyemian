@@ -1,0 +1,58 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": {
+    "boxlist": [
+      {
+        "type": 1,
+        "count": 0,
+        "prize": 0,
+        "status": 0
+      },
+      {
+        "type": 2,
+        "count": 0,
+        "prize": 5,
+        "status": 1
+      },
+      {
+        "type": 3,
+        "count": 0,
+        "prize": 0,
+        "status": 0
+      }
+    ],
+    "adoptrank": [
+      {
+        "uname": "下丸子",
+        "adoptnum": 100,
+        "avatar": ""
+      },
+      {
+        "uname": "下丸子",
+        "adoptnum": 80,
+        "avatar": ""
+      },
+      {
+        "uname": "下丸子",
+        "adoptnum": 20,
+        "avatar": ""
+      },
+      {
+        "uname": "下丸子",
+        "adoptnum": 10,
+        "avatar": ""
+      }
+    ],
+    "selfinfo": {
+    "status": 0,
+    "rank": 0,
+    "adoptNum": 0,
+    "avatar": ""
+  },
+  "totalnum": 0,
+  "barrage": [1111,2222,3333,4444],
+  "isJoin": false,
+  "leftTime": 1234
+  }
+}

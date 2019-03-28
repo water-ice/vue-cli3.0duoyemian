@@ -1,0 +1,95 @@
+//------------------------------------- ├ 布局&常用样式 ┆ └------------------------------------/
+//盒子宽高
+.size(@w,@h) {
+    width: @w;
+    height: @h;
+}
+//块级元素水平居中
+.center(auto-x) {
+    display: block;
+    margin: 0 auto;
+}
+//绝对定位居中（尺寸未知）
+.center(unknown) {
+    display: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+//绝对定位居中（尺寸已知）
+.center(known,@w,@h) {
+    display: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -(@h/2);
+    margin-left: -(@w/2);
+}
+
+// 居中, CSS3 平移方式, 兼容性不行
+.center(translate) { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+ 
+// 居中, Flex 方式, 兼容性不行
+.center(flex) { display: flex; align-items: center; justify-content: center; }
+
+// 清除浮动
+.clearfix() {
+    *zoom: 1;
+    &:after { display: block; clear: both; content: ''; visibility: hidden; height: 0; }
+}
+// 字体大小、行高、高度
+.fz(@fz, @h, @lh: @h) { font-size: @fz; height: @h; line-height: @lh; }
+ 
+// 行高与高度
+.lh(@h, @lh: @h) { height: @h; line-height: @lh; }
+
+// 扩展点击区域
+.extend-click() {
+    position: relative;
+    &:before { content: ''; position: absolute; top: -10px; left: -10px; right: -10px; bottom: -10px; }
+}
+
+// 禁止换行, 文本溢出省略号显示 (一行)
+.ellipsis() {
+    white-space: normal; word-wrap: break-word; word-break: break-all;
+    -o-text-overflow: ellipsis; -ms-text-overflow: ellipsis; text-overflow:ellipsis; overflow:hidden;
+}
+// 文本溢出省略号显示 (多行)
+// 只支持 webkit 浏览器, 解决方案：高度 = 行高*行数
+// height: 90px; line-height: 30px; -webkit-line-clamp: 3;
+.ellipsis-mult(@n: 3) {
+    display: -webkit-box; -webkit-box-orient: vertical;-webkit-line-clamp: @n; word-break: break-all;
+    -o-text-overflow: ellipsis; -ms-text-overflow: ellipsis; text-overflow:ellipsis; overflow: hidden;
+}
+//------------------------------------- ├ 组件 ┆ └------------------------------------/
+// 遮罩
+.effect-modal {
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    z-index: 1001;
+    background: black;
+    opacity: 0.6;
+}
+// 吸顶导航
+.fix-header(@h: 70px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: @h;
+    z-index: 1000;
+}
+// 吸底导航
+  .fix-header(@h: 70px) {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: @h;
+    z-index: 1000;
+  }
+  @color1:red;

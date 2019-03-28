@@ -1,0 +1,30 @@
+{
+  "errNo": 0,
+  "errstr": "success",
+  "data": [
+    {
+      "uname": "沈腾",
+      "prizeName": "10帮帮币"
+    },
+    {
+      "uname": "马力",
+      "prizeName": "20帮帮币"
+    },
+    {
+      "uname": "大潘",
+      "prizeName": "大栗礼盒"
+    },
+    {
+      "uname": "艾伦",
+      "prizeName": "7天会员"
+    },
+    {
+      "uname": "常远",
+      "prizeName": "20帮帮币"
+    },
+    {
+      "uname": "魏翔",
+      "prizeName": "500帮帮币"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+$bgcolor: #ff4a50;
+@function rem($px) {
+  @return $px / 100 + rem;
+}
+@keyframes breath {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.04);
+  }
+}
+@mixin name {
+  color: #3f37b1;
+  font-size: rem(24);
+  font-weight: bold;
+  margin-top: rem(12);
+  margin-left: rem(30);
+  line-height: 1;
+}
+@mixin detail($font, $top, $left) {
+  font-size: $font;
+  line-height: 1;
+  color: #fffc00;
+  font-weight: bold;
+  margin-top: $top;
+  margin-left: $left;
+}
+@mixin detail-red($font, $color) {
+  font-size: $font;
+  color: $color;
+}
+// 宽高，mt，mr，mb,ml.字体大小，圆角大小,文字颜色,背景颜色,上阴影颜色,下阴影颜色
+@mixin dialogBtn(
+  $width,
+  $height,
+  $top,
+  $right,
+  $bottom,
+  $left,
+  $font,
+  $radius,
+  $color,
+  $bgcolor,
+  $topShadow,
+  $bottomShadow
+) {
+  display: inline-block;
+  width: $width;
+  height: $height;
+  margin-left: $left;
+  margin-right: $right;
+  margin-top: $top;
+  margin-bottom: $bottom;
+  font-size: $font;
+  font-weight: bold;
+  color: $color;
+  text-align: center;
+  line-height: $height;
+  border-radius: $radius;
+  background-color: $bgcolor;
+  box-shadow: inset 0px 4px 3px 1px $topShadow,
+    inset -2px -4px 2px 1px $bottomShadow;
+}
+.name {
+  @include name;
+}

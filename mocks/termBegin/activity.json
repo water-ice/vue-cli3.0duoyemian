@@ -1,0 +1,41 @@
+{
+    "errNo": 0,
+    "errstr": "success",
+    "data": {
+      "isLogin": 1,
+      "products": [
+        {
+          "payServiceId": 31,
+          "payItemId": 999,
+          "price": 990
+        },
+        {
+          "payServiceId": 31,
+          "payItemId": 100001,
+          "price": 6000
+        },
+        {
+          "payServiceId": 31,
+          "payItemId": 100002,
+          "price": 11900
+        }
+      ],
+      "prizes": [],
+      "userInfo": {
+        "addressInput": 1,
+        "luckDrawCount": 0,
+        "userName": "",
+        "phone": "",
+        "address": ""
+      },
+      "activityInfo": {
+        "activityName": "VIP开学放价活动",
+        "startTime": 1550678400,
+        "endTime": 1552838400,
+        "userCount": 0,
+        "viewCount": 0
+      }
+    }
+  }
+  
+  
